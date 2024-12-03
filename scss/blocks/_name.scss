@@ -1,0 +1,52 @@
+.name {
+    margin: 0 0 33px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.name__header {
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 20.5px 0;
+    color: $dark-blue;
+}
+
+.name__input {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: $light-grey;
+    margin: 0 0 21px 0;
+    border: 1px solid $light-grey;
+    padding: 13px 0 16px 17.24px;
+    width: 341px;
+}
+
+.name__input:last-child {
+    margin: 0 0 31.5px 0;
+}
+
+.name__radio {
+    margin: 0 10px 0 0;
+    color: $light-grey;
+}
+
+.name__radio-gender {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.name__radio-flex {
+    display: flex;
+}
+
+.name__radio-margin {
+    margin: 0 20px 0 0;
+}
+
+.name__radio-margin:last-child {
+    margin: 0;
+}

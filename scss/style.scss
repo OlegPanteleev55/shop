@@ -1,7 +1,7 @@
-@import './reset';
-@import './general';
 @import './variables';
 @import './mixins';
+@import './reset';
+@import './general';
 @import './blocks/header';
 @import './blocks/brand';
 @import './blocks/featured';
@@ -9,3 +9,10 @@
 @import './blocks/advantages';
 @import './blocks/subscribe';
 @import './blocks/footer';
+@import './blocks/registration';
+@import './blocks/name';
+@import './blocks/login';
+@import './blocks/submit';
+@import './blocks/loyalty';
+@import './blocks/your-info';
+@import './blocks/form';

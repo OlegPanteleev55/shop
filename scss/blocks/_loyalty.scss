@@ -1,0 +1,36 @@
+.loyalty {
+    width: 650px;
+}
+
+.loyalty__header {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0 0 22px 0;
+}
+
+.loyalty__text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0 0 21px 0;
+}
+
+.loyalty__list-item {
+    position: relative;
+    margin: 0 0 16px 43px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.loyalty__list-item::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 16px;
+    background-image: url(../img/check.svg);
+    left: -43px;
+    top: 7px;
+}
