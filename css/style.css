@@ -172,7 +172,7 @@ body {
 .header__navigation {
   display: none;
 }
-.header_logo {
+.header__logo {
   margin: 0 41px 0 0;
 }
 .header__button {
@@ -458,44 +458,20 @@ body {
 .footer {
   background-color: #222222;
 }
-
 .footer__copyright {
   padding: 30px 0 30px 0;
   color: #FFFFFF;
   text-transform: capitalize;
 }
-
 .footer__wrapper {
   display: flex;
   justify-content: space-between;
-}
-
-.socials {
-  display: flex;
-}
-
-.socials__item {
-  width: 31.45px;
-  height: 32px;
-  background-color: #FFFFFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.socials__item-wrapper {
-  margin: 24px 7.29px 23px 0;
-}
-
-.socials__item-wrapper:last-child {
-  margin: 24px 0 23px 0;
 }
 
 .registration {
   background-color: #FFFFFF;
   margin: 0 0 64px 0;
 }
-
 .registration__header {
   text-transform: uppercase;
   font-weight: 400;
@@ -510,7 +486,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .name__header {
   text-transform: capitalize;
   font-weight: 300;
@@ -519,54 +494,38 @@ body {
   margin: 0 0 20.5px 0;
   color: #222222;
 }
-
 .name__input {
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
   color: #B1B1B1;
-  margin: 0 0 21px 0;
+  margin: 0 0 20px 0;
   border: 1px solid #B1B1B1;
   padding: 13px 0 16px 17.24px;
   width: 341px;
 }
-
 .name__input:last-child {
   margin: 0 0 31.5px 0;
 }
-
 .name__radio {
   margin: 0 10px 0 0;
   color: #B1B1B1;
 }
-
 .name__radio-gender {
   font-weight: 300;
   font-size: 11px;
   line-height: 13px;
-}
-
-.name__radio-flex {
-  display: flex;
-}
-
-.name__radio-margin {
   margin: 0 20px 0 0;
 }
-
-.name__radio-margin:last-child {
-  margin: 0;
+.name__radio-flex {
+  display: flex;
 }
 
 .login {
   display: flex;
   flex-direction: column;
-}
-
-.login {
   margin: 0 0 39px 0;
 }
-
 .login__header {
   text-transform: capitalize;
   font-weight: 300;
@@ -575,7 +534,6 @@ body {
   margin: 0 0 20.5px 0;
   color: #222222;
 }
-
 .login__input {
   font-weight: 300;
   font-size: 13px;
@@ -586,28 +544,9 @@ body {
   padding: 13px 0 16px 17.24px;
   width: 341px;
 }
-
 .login__input:last-child {
   margin: 0 0 31.5px 0;
 }
-
-.login__radio {
-  margin: 0 10px 0 0;
-  color: #B1B1B1;
-}
-
-.login__radio-flex {
-  display: flex;
-}
-
-.login__radio-margin {
-  margin: 0 20px 0 0;
-}
-
-.login__radio-margin:last-child {
-  margin: 0;
-}
-
 .login__text {
   font-weight: 300;
   font-size: 13px;
@@ -623,7 +562,6 @@ body {
   border: none;
   margin: 0 0 96px 0;
 }
-
 .submit__text {
   padding: 0 20px 0 0;
 }
@@ -631,7 +569,6 @@ body {
 .loyalty {
   width: 650px;
 }
-
 .loyalty__header {
   text-transform: uppercase;
   font-weight: 300;
@@ -639,14 +576,12 @@ body {
   line-height: 29px;
   margin: 0 0 22px 0;
 }
-
 .loyalty__text {
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
   margin: 0 0 21px 0;
 }
-
 .loyalty__list-item {
   position: relative;
   margin: 0 0 16px 43px;
@@ -654,7 +589,6 @@ body {
   font-size: 24px;
   line-height: 29px;
 }
-
 .loyalty__list-item::before {
   content: "";
   position: absolute;
@@ -672,4 +606,22 @@ body {
 .form {
   display: flex;
   justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+}
+.socials__item {
+  width: 31.45px;
+  height: 32px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socials__item-wrapper {
+  margin: 24px 7.29px 23px 0;
+}
+.socials__item-wrapper:last-child {
+  margin: 24px 0 23px 0;
 }/*# sourceMappingURL=style.css.map */

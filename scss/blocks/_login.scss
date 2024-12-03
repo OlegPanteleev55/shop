@@ -1,56 +1,36 @@
 .login {
     display: flex;
     flex-direction: column;
-}
-
-.login {
     margin: 0 0 39px 0;
-}
 
-.login__header {
-    text-transform: capitalize;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-    margin: 0 0 20.5px 0;
-    color: $dark-blue;
-}
+    &__header {
+        text-transform: capitalize;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        margin: 0 0 20.5px 0;
+        color: $dark-blue;
+    }
 
-.login__input {
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 16px;
-    color: $light-grey;
-    margin: 0 0 21px 0;
-    border: 1px solid $light-grey;
-    padding: 13px 0 16px 17.24px;
-    width: 341px;
-}
+    &__input {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: $light-grey;
+        margin: 0 0 21px 0;
+        border: 1px solid $light-grey;
+        padding: 13px 0 16px 17.24px;
+        width: 341px;
+    }
 
-.login__input:last-child {
-    margin: 0 0 31.5px 0;
-}
+    &__input:last-child {
+        margin: 0 0 31.5px 0;
+    }
 
-.login__radio {
-    margin: 0 10px 0 0;
-    color: $light-grey;
-}
-
-.login__radio-flex {
-    display: flex;
-}
-
-.login__radio-margin {
-    margin: 0 20px 0 0;
-}
-
-.login__radio-margin:last-child {
-    margin: 0;
-}
-
-.login__text {
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 16px;
-    color: $light-grey;
+    &__text {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: $light-grey;
+    }
 }

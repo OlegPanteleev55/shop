@@ -1,0 +1,21 @@
+.socials {
+    display: flex;
+
+    &__item {
+        width: 31.45px;
+        height: 32px;
+        background-color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    &__item-wrapper {
+        margin: 24px 7.29px 23px 0;
+    }
+    
+    &__item-wrapper:last-child {
+        margin: 24px 0 23px 0;
+    }
+}
