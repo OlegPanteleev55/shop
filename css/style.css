@@ -603,7 +603,7 @@ body {
   width: 360px;
 }
 
-.form {
+.registration-form {
   display: flex;
   justify-content: space-between;
 }
@@ -624,4 +624,16 @@ body {
 }
 .socials__item-wrapper:last-child {
   margin: 24px 0 23px 0;
+}
+
+.shopping-cart {
+  background-color: #F8F3F4;
+}
+.shopping-cart__header {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+  padding: 59px 0 60px 0;
 }/*# sourceMappingURL=style.css.map */

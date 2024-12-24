@@ -1,0 +1,12 @@
+.shopping-cart {
+    background-color: $grey-header;
+
+    &__header {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: $dark-pink;
+        padding: 59px 0 60px 0;
+    }
+}
